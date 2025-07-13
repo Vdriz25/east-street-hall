@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>East Street Hall</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- NAV -->
+  <header class="bg-white p-4 shadow flex justify-between items-center sticky top-0 z-50">
+    <h1 class="text-2xl font-bold text-indigo-700">East Street Hall</h1>
+    <nav class="space-x-4 text-sm">
+      <a href="#about" class="hover:text-indigo-600">About</a>
+      <a href="#events" class="hover:text-indigo-600">Events</a>
+      <a href="#gallery" class="hover:text-indigo-600">Gallery</a>
+      <a href="#contact" class="hover:text-indigo-600">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative">
+    <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1920&q=80" alt="Venue" class="w-full h-[60vh] object-cover">
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-white text-center px-4">
+      <div>
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">Host Your Next Event at East Street Hall</h2>
+        <p class="text-lg mb-6 max-w-2xl mx-auto">Urban charm meets modern flexibility. Perfect for weddings, private functions, and creative launches.</p>
+        <a href="#contact" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full text-sm">Enquire Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-16 px-6 max-w-5xl mx-auto text-center">
+    <h3 class="text-3xl font-bold mb-4">The Space</h3>
+    <p class="text-lg text-gray-700">Located in the heart of Auckland, East Street Hall is a minimalist and vibrant space perfect for hosting up to 250 guests. Fully equipped with a bar, sound system, and open-plan layout.</p>
+  </section>
+
+  <!-- EVENTS -->
+  <section id="events" class="bg-gray-100 py-16 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold text-center mb-10">Event Packages</h3>
+    <div class="grid md:grid-cols-3 gap-8 text-left">
+      <div class="bg-white p-6 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">🎉 Private Functions</h4>
+        <p>Celebrate birthdays, engagements, and more with customizable layout and BYO options.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">💼 Corporate Events</h4>
+        <p>Professional space for launches, networking, and team events with AV support.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">💍 Weddings</h4>
+        <p>Host both ceremony and reception in a single, stylish venue with full coordination support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="py-16 px-6 max-w-6xl mx-auto text-center">
+    <h3 class="text-3xl font-bold mb-6">Gallery</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=800&q=80" class="rounded-lg shadow">
+      <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=800&q=80" class="rounded-lg shadow">
+      <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=800&q=80" class="rounded-lg shadow">
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="bg-indigo-50 py-16 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">Book Your Date</h3>
+    <form class="max-w-xl mx-auto space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-3 rounded border border-gray-300">
+      <input type="email" placeholder="Your Email" class="w-full p-3 rounded border border-gray-300">
+      <textarea placeholder="Tell us about your event..." rows="4" class="w-full p-3 rounded border border-gray-300"></textarea>
+      <button type="submit" class="bg-indigo-700 text-white px-6 py-2 rounded-full hover:bg-indigo-800">Send Enquiry</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-white text-center py-6 text-sm text-gray-500">
+    &copy; 2025 East Street Hall. Website crafted by Vedant Chhabra.
+  </footer>
+
+</body>
+</html>
